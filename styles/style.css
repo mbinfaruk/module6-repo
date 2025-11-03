@@ -19,6 +19,12 @@
     border-radius: 5px;
     border: none;
 }
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+}
 /* nav section */
 .nav{
     display: flex;
@@ -45,4 +51,12 @@ nav ul{
 nav ul li{
     list-style-type: none;
     margin-right: 50px;
+}
+/* banner */
+.banner{
+    display: flex;
+    margin: 0 38px 0 230px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
